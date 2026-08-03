@@ -1,44 +1,22 @@
 # Architecture
 
-This project is a simple 3D book cover built using HTML and CSS. The application features rotating book covers on hover.
+This repository contains a simple 3D book cover project that rotates when hovered over, built using HTML and CSS. The structure is minimal but effective for displaying a single page with a rotating book cover.
 
-**Tech Stack:**
-- Frontend: HTML, CSS
+## Directory Layout
 
-## Module/Directory Layout
-
-The directory structure is minimal as it’s a simple web project:
-
-```
-README.md
-img4.jpg
-style.css
-style1.css
-visual.html
-visual1.html
-```
-
-### Key Files:
-1. **` README.md`:** Contains the project description.
-2. **` img4.jpg `:** A book cover image used in the project.
-3. **` style.css `:** Contains basic CSS for styling and animation.
-4. **` style1.css `:** Another CSS file, which might be a backup or additional styles.
-5. **` visual.html `:** The HTML file containing the 3D book cover effect.
-6. **` visual1.html `:** Another HTML file that could serve as a variant or an older version.
+- **ARCHITECTURE.md**: This file documents the architecture of the project.
+- **README.md**: Provides an overview and completion details of the project.
+- **img4.jpg**: Possibly an image file used in the background or as part of the 3D effect.
+- **style.css**: Contains the CSS styles applied to the web page, including the rotation effect.
+- **style1.css**: An additional CSS file. Its purpose is unclear from the given files but might be for different styling needs or experimenting.
+- **visual.html**: The main HTML file that renders the 3D book cover.
+- **visual1.html**: Likely a backup copy of `visual.html` or an alternative page.
 
 ## Naming and Structural Conventions
 
-- **CSS File Conventions:**
-  - Styles specific to the project are stored in `style.css`.
-  - Additional styles, if present, follow the pattern `styleX.css`.
-
-- **HTML File Conventions:**
-  - The primary HTML file for the 3D book cover is `visual.html`.
-  - There’s an additional `visual1.html`, which could be used for different versions or variants.
-
-**Test Files:** 
-No test files are present in this directory. Unit tests, if present, would typically reside alongside specific modules and follow naming conventions like `module_name_test.js`.
+- **CSS Files**: CSS is stored in separate files named `style.css` and `style1.css`. This suggests a separation between main styles and potential alternative styles.
+- **HTML Pages**: There are two HTML pages, `visual.html` and `visual1.html`, with minimal content suggesting they might serve as either development variants or backups.
 
 ## Closing Note
 
-New tickets are appended below this line as components are implemented.
+New tickets, if any, should be appended below this line as components are implemented. For now, the project is complete with a basic 3D book cover rotating on hover, which is the primary feature.
